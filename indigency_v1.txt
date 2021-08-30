@@ -1,0 +1,150 @@
+Title: Indigency "Flowchart"
+Author: Matthew Patalano
+Before: <link rel="stylesheet" type="text/css" href="https://suffolklitlab.org/howto/qna/style/style.css">
+<div id="icon" style="background-size: 110px 99px;background-image: url('https://suffolklitlab.org/howto/qna/images/maxheadroom.gif');"></div>
+<h2 style="text-align:center;">Indigency "Flowchart"</h2>
+<p><b>This is a <a href="https://www.codingthelaw.org/level/2/#mission_p1">class project</a>. You should not rely on it as a source of legal information!</b></p>
+<p>Answer the following questions to see if you qualify for appointed counsel in Georgia.</p>
+
+
+Q(1): Are you charged with a Felony or Misdemeanor?
+A: Felony
+	Q(1.1):GOTO:2
+A: Misdemeanor
+	Q(1.2):GOTO:3
+
+
+
+Q(2): How Many People are in your household?
+A: 1
+	Q(2.1):GOTO:M1
+A: 2
+	Q(2.2):GOTO:M2
+A: 3
+	Q(2.3):GOTO:M3
+A: 4
+	Q(2.4):GOTO:M4
+A: 5
+	Q(2.5):GOTO:M5
+A: 6
+	Q(2.6):GOTO:M6
+
+
+
+Q(3): How Many People are in your household?
+A: 1
+	Q(3.1):GOTO:F1
+A: 2
+	Q(3.2):GOTO:F2
+A: 3
+	Q(3.3):GOTO:F3
+A: 4
+	Q(3.4):GOTO:F4
+A: 5
+	Q(3.5):GOTO:F5
+A: 6
+	Q(3.6):GOTO:F6
+
+
+Q(M1): Do you earn less than $11,670?
+A: Yes
+	Q(M1.1):GOTO:R
+A: No
+	Q(M1.2):GOTO:NI
+
+
+Q(M2): Do you earn less than $15,730?
+A: Yes
+	Q(M2.1):GOTO:R
+A: No
+	Q(M2.2):GOTO:NI
+
+
+Q(M3): Do you earn less than $19,790?
+A: Yes
+	Q(M3.1):GOTO:R
+A: No
+	Q(M3.2):GOTO:NI
+
+
+Q(M4): Do you earn less than $23,850?
+A: Yes
+	Q(M4.1):GOTO:R
+A: No
+	Q(M4.2):GOTO:NI
+
+
+Q(M5): Do you earn less than $27,910?
+A: Yes
+	Q(M5.1):GOTO:R
+A: No
+	Q(M5.2):GOTO:NI
+
+
+Q(M6): Do you earn less than $31,970?
+A: Yes
+	Q(M6.1):GOTO:R
+A: No
+	Q(M6.2):GOTO:NI
+
+
+
+
+
+
+
+
+
+
+
+Q(F1): Do you earn less than $17,505?
+A: Yes
+	Q(F1.1):GOTO:R
+A: No
+	Q(F1.2):GOTO:NI
+
+
+
+
+Q(F2): Do you earn less than $23,595?
+A: Yes
+	Q(F2.1):GOTO:R
+A: No
+	Q(F2.2):GOTO:NI
+
+
+Q(F3): Do you earn less than $29,685?
+A: Yes
+	Q(F3.1):GOTO:R
+A: No
+	Q(F3.2):GOTO:NI
+
+
+Q(F4): Do you earn less than $35,775?
+A: Yes
+	Q(F4.1):GOTO:R
+A: No
+	Q(F4.2):GOTO:NI
+
+
+Q(F5): Do you earn less than $41,865?
+A: Yes
+	Q(F5.1):GOTO:R
+A: No
+	Q(F5.2):GOTO:NI
+
+
+Q(F6): Do you earn less than $47,955?
+A: Yes
+	Q(F6.1):GOTO:R
+A: No
+	Q(F6.2):GOTO:NI
+
+Q(R):  Do you have any other resources you could use to pay an attorney?
+A: Yes
+	Q(R.1):GOTO:NI
+A: No
+	Q(R.2):GOTO:I
+
+Q(NI): You are not indigent and do not qualify for appointed counsel.
+Q(I):  You are indigent and do qualify for appointed counsel.
